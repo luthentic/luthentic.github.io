@@ -618,8 +618,9 @@ p{
 .contact-container{
 	text-align: left;
 	border-radius: 10px;
-  width: 650px;
+  width: 600px;
   display: flex;
+  background-color: #5a8e9f;
 }
 #col{
   flex-direction: column;
@@ -636,7 +637,7 @@ p{
   visibility:visible;
 }
 #contact .contact-info:hover {
-	box-shadow: 0px 0px 5px 0 #0000002c;
+	box-shadow: 0px 0px 0.2px 0 #c9c9c92c;
   background-color: #fbd8d8;
   color: #080808;
   transition-delay: 0.3s;
@@ -653,8 +654,9 @@ p{
 	font-weight: 500;
 }
 #contact img{
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
 }
 
 .contact-info img, .contact-info p{
