@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="aiden.css">
+  <title>Sewoong Aiden Lee</title>
+</head>
+
+<body>
+  <div class='cursor'></div>
+  <div class="cursor2"></div>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>Sewoong Aiden Lee</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Career</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1 id="name1">Sewoong Aiden Lee <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+        <img src="./pics/Sewoong Lee solo.jpg" alt="" class="aiden-pic">
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="content">
+          <span>C</span>
+          <span>a</span>
+          <span>r</span>
+          <span>e</span>
+          <span>e</span>
+          <span>r</span>
+        </h1>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="service-info">
+            <h1>08/2018 - 05/2020</h1>
+            <h2>Network Engineer</h2>
+            <p>Configuring and installing various network devices and services routers, switches, firewalls, load balancers, VPN, UTP, copper, coaxial, cable</p>
+            <p>Monitoring and ensuring network engineering system performance (node systems) and availability and reliability</p>
+            <p>Performing network maintenance and upgrading systems including service packs, patches and security configurations</p>
+            <p>Establishing networking configuration, directing system installation and IPaddress auditing</p>
+            <p>Install, implement, test Cisco routers and switch systems</p>
+            <p>Aid in deploying and connecting Cisco network equipment and cable management</p>
+            <p>Research, identify and install Cisco critical patches to pre-stage network equipment.</p>
+            <p>Assist in annual inventory asset reconciliation</p>
+            <p>Work with other Network Analysts in support of entire Network such as Router, Switch, and Wireless related products</p>
+            <p>Assisting with Network technology planning and research</p>
+            
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent Projects</h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item" onclick="clickLink()">
+          <div class="project-info-cloudy">
+            <h1>Cloudy</h1>
+            <p>File upload &share web service in MVC architecture using Javascript, MongoDB, express.js, Nunjucks, CSS
+              Build server in express, verify user validation using mongoose model schema, store data in MongoDB, and optimize efficiency making a customized cache system for reaccessing files</p>
+          </div>
+          <div class="project-img" id="img-border-top"> 
+            <img src="./pics/browse.png" alt="img" onclick="linkCloud(); return false;">
+            <img src="./pics/upload.png" alt="" onclick="linkCloud(); return false;">
+          </div>
+        </div>
+        <div class="project-item" onclick="linkTrans(); return false;">
+          <div class="project-info">
+            <h1>Online Transaction System Design</h1>
+            <p>Design a system architecture for an online transaction system making stakeholders, activity diagrams, description of workflows, use case diagrams, code class association, specialization, relationship, and precondition</p>
+          </div>
+          <div class="project-img">
+            <img src="./pics/pro1.png" alt="img" style="height: 100%;object-fit: fill;">
+          </div>
+        </div>
+        <div class="project-item" onclick="linkPoker(); return false">
+          <div class="project-info">
+            <h1>Online Poker</h1><h4>(In Progress)</h4>
+            <p>Five cards poker game system using Java, Websocket, CSS
+              Poker system using chain design pattern and WebSocket in order to interact between users in real-time</p>
+          </div>
+          <div class="project-img">
+            <img src="./pics/poker.png" alt="" style="height: 100%;object-fit: fill;">
+          </div>
+        </div>
+        <div class="project-item" onclick="linkMall(); return false">
+          <div class="project-info-shop">
+            <h1>e-Commerce Mall</h1>
+            <h4>(In progress)</h4>
+            <p>Create online shopping mall CRUD system using vanilla HTML CSS Javascript Firebase real-time database and authentication system 
+            </p>
+          </div>
+          <div class="project-img" id="img-border-bottom">
+            <img src="./pics/mall.png" alt="img" style="height: 100%;object-fit: fill;">
+          </div>
+        </div>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+        <div class="about-img">
+          <img src="pics/Sewoong Lee Group.jpg" alt="img">
+        </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Software Developer</h2>
+        <p>Resourceful Developer with 2 years of hands-on experience in network engineering & personal project experiences in web development.<br> Skilled at utilizing a wide variety of programming tools and programs.</p>
+        
+        <a href="https://drive.google.com/file/d/14MryD6drYlz_sHIRuPv7JgqqyCB6LY8Z/view?usp=sharing" class="cta">Download Resume</a> 
+        <!-- link -->
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div>
+      <h1 class="section-title">Contact <span>info</span></h1>
+    </div>
+    <div class="contact-container" id="col">
+          <div class="contact-info" >
+            <img src="pics/phone-call.png" alt="">
+            <p>+1 204-869-4349</p>
+          </div>
+          <div class="contact-info">
+            <img src="pics/email.png" alt="">
+            <p>dltpdnd1234@gmail.com</p> 
+          </div>
+          <div class="contact-info">
+            <img src="pics/linkedin.png" alt="">
+            <p> https://www.linkedin.com/in/sewoong-aiden-lee-b3029821b/</p>
+          </div>
+          <div class="contact-info">
+            <img src="pics/address.png" alt="">
+            <p>Canada, Winnipeg</p>
+          </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+  <script src="./aiden.js"></script>
+</body>
+
+</html>
