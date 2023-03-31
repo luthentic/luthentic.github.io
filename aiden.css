@@ -296,8 +296,17 @@ p{
 #hero .hero {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 50px;
+	padding: 0 30px;
 	justify-content: flex-start;
+}
+/* #hero h3 {
+	display: block;
+	width: fit-content;
+	font-size: 3rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal 1s ease forwards;
+
 }
 #hero h1 {
 	display: block;
@@ -306,39 +315,44 @@ p{
 	position: relative;
 	color: transparent;
 	animation: text_reveal 0.5s ease forwards;
-	animation-delay: 1s;
-}
+
+} */
 #hero container{
   margin-left: 100px;
 }
-#hero h1:nth-child(1) {
-	animation-delay: 1s;
+#hero .first {
+  display: block;
+	width: fit-content;
+	font-size: 3rem;
+	position: relative;
+	color: transparent;
+	animation: fadeIn 3s ease forwards;
 }
-#hero h1:nth-child(2) {
-	animation-delay: 2s;
+#hero .second {
+  display: block;
+	width: fit-content;
+	font-size: 3rem;
+	position: relative;
+	color: transparent;
+	animation: fadeIn 10s ease forwards;
 }
-#hero h1:nth-child(3) {
-	animation-delay: 3s;
+#hero .third {
+  display: block;
+	width: fit-content;
+	font-size: 5rem;
+	position: relative;
+	color: transparent;
+	animation: fadeIn 16s ease forwards;
 }
-#hero h1 span {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 0;
-	background-color: rgb(240, 231, 233);
-	animation: text_reveal_box 1s ease;
-	animation-delay: 0.5s;
+#hero .fourth{
+  display: block;
+	width: fit-content;
+	font-size: 5rem;
+	position: relative;
+	color: transparent;
+	animation: fadeIn 25s ease forwards;
 }
-#hero h1:nth-child(1) span {
-	animation-delay: 0.5s;
-}
-#hero h1:nth-child(2) span {
-	animation-delay: 1.5s;
-}
-#hero h1:nth-child(3) span {
-	animation-delay: 2.5s;
-}
+
 /* End Hero Section */
 
 
@@ -374,7 +388,7 @@ p{
 
 #services .service-info {
 	padding: 30px;
-	height: 500px;
+	height: 530px;
 	background-image: linear-gradient(60deg, #4c4d4f 0%, #414242 100%);
 	color: white;
   transition: transform 0.6s; 
@@ -401,9 +415,9 @@ p{
   margin-bottom: 20px;
 }
 #services .service-item h2 {
-	font-size: 3rem;
+	font-size: 2rem;
 	color: white;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 #services .service-item p {
@@ -621,7 +635,7 @@ p{
 	border-radius: 10px;
   width: 600px;
   display: flex;
-  background-color: #5a8e9f;
+  background-color: #2b3032;
 }
 #col{
   flex-direction: column;
@@ -639,7 +653,7 @@ p{
 }
 #contact .contact-info:hover {
 	box-shadow: 0px 0px 0.2px 0 #c9c9c92c;
-  background-color: #fbd8d8;
+  background-color: #c9c9c92c;
   color: #080808;
   transition-delay: 0.3s;
 }
@@ -712,7 +726,10 @@ p{
 }
 @keyframes fadeIn {
   0% { opacity: 0; }
-  100% { opacity: 1; }
+  100% { 
+    color: white;
+    opacity: 1; 
+  }
 }
 @keyframes float {
 	0% {
