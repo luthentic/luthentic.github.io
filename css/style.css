@@ -1291,7 +1291,7 @@ input[type="text"] {
 .cta{
   display: inline-block;
 	padding: 10px 30px;
-	color: rgb(244, 7, 7);
+	color: #fbbd13;
 	background-color: transparent;
 	border: 0.5px solid rgb(79, 73, 78);
 	font-size: 4rem;
@@ -1315,7 +1315,7 @@ input[type="text"] {
   position: fixed;
   width: 50px;
   height: 50px;
-  border: 2px solid rgb(85, 190, 219);
+  border: 2px solid rgb(250, 222, 5);
   border-radius: 50%;
   left: 0;
   top: 0;
@@ -1327,7 +1327,7 @@ input[type="text"] {
 position: fixed;
 width: 10px;
 height: 10px;
-background-color: #c8eefb;
+background-color: #fbba09;
 border-radius: 50%;
 left: 0;
 top: 0;
