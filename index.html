@@ -1,221 +1,393 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta https-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sewoong Aiden Lee</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
 
-<head>
-  <meta charset="UTF-8">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="aiden.css">
-  <title>Sewoong Aiden Lee</title>
-</head>
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-<body>
-  <div class='cursor'></div>
-  <div class="cursor2"></div>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1>Sewoong Aiden Lee</h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Service">Career</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Header -->
+	<link href="httpss://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="httpss://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-  <!-- Hero Section  -->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h3 class="first">Hello, <span></span></h3>
-        <h3 class="second">My Name is <span></span></h3>
-        <h1 class="third">Sewoong Aiden Lee <span></span></h1>
-        <h1 class="fourth">I'm Software Developer<span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
-        <!-- <img src="./pics/Sewoong Lee Group.jpg" alt="" class="aiden-pic"> -->
-      </div>
-    </div>
-  </section>
-  <!-- End Hero Section  -->
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="content">
-          <span>C</span>
-          <span>a</span>
-          <span>r</span>
-          <span>e</span>
-          <span>e</span>
-          <span>r</span>
-        </h1>
-      </div>
-      <div class="service-bottom">
-        <div class="service-item">
-          <div class="service-info">
-            <h1>UWACSSA</h1>
-            <h2>Frontend Developer </h2>
-            <h2>05/2022  - 09/2022 </h2>
-            <p>Built application interfaces using React and tailwind collaborating with stakeholders and backend team members </p>
-            <p>Monitored CI/CD tool integration/operations utilizing GitHub issue and action</p>
-            <p>Lowered of TTFB time from 640ms to 540ms through the use of RFPL cache and improved of TTI from 6s to 5s by avoiding the use of third-party APIs</p>
-            <p>Built the technical feasibility of UI/UX designs</p>
-            <p>Ensured web design is optimized for other devices using media queries</p>
-            <p>Write functional requirement documents and guides</p>
-            <p>Created user-friendly web pages</p>
-            <p>Implemented SEO to improve Organic click through rate</p>
-            <p>Participated wireframing the interfaces </p>        
-            <p>Fixed and ensured that the website front-end is free from errors or bugs and testing for usability</p>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.9">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/Sewoong\ Aiden\ Lee.png);"></div>
+							<h1><span>Sewoong Aiden Lee</span></h1>
+							<h3><span>Software Developer / Traveller</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="httpss://github.com/luthentic"><i class="icon-github2"></i></a></li>
+									<li><a href="httpss://www.linkedin.com/in/sewoong-aiden-lee-b3029821b/"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="httpss://www.instagram.com/ricksewo/"><i class="icon-instagram2"></i></a></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
-          </div>
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Sewoong Lee</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+1 204 869 4349</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">swlee5523@gmail.com</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">26 Summerfield way, Winnipeg, MB</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello There!</h2>
+					<p>Software Developer with background with 2 years of hands-on experience in network engineering who dreams to learn and explore new challenge beyond programming</p>
+					<p>I'm making webs using Javascript, CSS, React.js languages.<br>
+            Courageous enough to face huge bugs🐛 
+            Proficient in a wide range of programming tools🔨
+            Adaptable to new technologies and can collaborate well with cross-functional teams🧑🏻‍🤝‍🧑🏻
+          </p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-          <div class="service-info">
-            <h1>Army</h1>
-            <h2>Network Engineer</h2>
-            <h2>08/2018 - 05/2020</h2>
-            <p>Configured and installed RG-6, RG-11, Ericsson Router 6000 series, PoE switches, and CAT1-6 cables spanning frequencies of 250 MHz to 500 MHz</p>
-            <p>Monitored and ensuring network engineering system performance (node systems) and availability and reliability</p>
-            <p>Optimized router network performance from 10/100 Mbps up to 10/200 Mbps</p>
-            <p>Established networking configuration, directing system installation and IPaddress auditing</p>
-            <p>Installed, implemented, tested Cisco routers and switch systems</p>
-            <p>Aided in deploying and connecting Cisco network equipment and cable management</p>
-            <p>Participated in annual inventory asset reconciliation</p>
-            <p>Worked with other Network Analysts in support of entire Network such as Router, Switch, and Wireless related products</p>
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+          <a href="httpss://drive.google.com/file/d/1h73_q1pCI_BAMycBMqZiDN_TD5VjxXoN/view?usp=sharing" class="cta">Download Resume</a> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Work Experience</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h1 class="timeline-title">Schedule Manager</h1>
+									<span class="company">REDIMART - Dec 2022 - Feb 2023</span>
+								</div>
+								<div class="timeline-body">
+									<p><b>Provided</b> a high level of service to customers and trained employees on corporate policies</p><br/>
+                  <p><b>Monitored</b> stock levels, purchased and ensured it stays within budget</p><br>
+                  <p><b>Implemented</b> Tableau to analyze sales quarter reports</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h1 class="timeline-title">Frontend Developer</h1>
+									<span class="company">UWACSSA - May 2022 - Sep 2022</span>
+								</div>
+								<div class="timeline-body">
+                  <p><b>Built</b> application interfaces using React and tailwind collaborating with stakeholders and backend team members</p><br/>
+                  <p><b>Monitored </b> CI/CD tool integration/operations utilizing GitHub issue and action</p><br>
+                  <p><b>Lowered</b> TTFB time from 640ms to 540ms through the use of RFPL cache and improved of TTI from 6s to 5s by avoiding the use of third-party APIs</p><br>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h1 class="timeline-title">Network Engineer</h1>
+									<span class="company">Army - Aug 2018 - Mar 2020</span>
+								</div>
+								<div class="timeline-body">
+                  <p><b>Configured </b>  RG-6, RG-11, Ericsson Router 6000 series, PoE switches, and CAT1-6 cables spanning frequencies of 250 MHz to 500 MHz</p><br/>
+                  <p><b>Monitored </b> and ensured node server reliability to maintain network performance</p><br>
+                  <p><b>Optimized</b> network performance from 10/100 Mbps up to 10/200 Mbps</p><br>
+								</div>
+								</div>
+							</div>
+						</li>
+
+						<br>
+						<div class="timeline-heading text-center animate-box">
+							<div ><h2 >Education</h2></div>
+						</div>
             
-          </div>  
-          <div class="service-info">
-            <h1>IT Bank</h1>
-            <h2>JavaScript Instructor</h2>
-            <h2>02/2016  - 06/2016</h2>
-            <p>Delivered instruction on prototypes, the Document Object Model (DOM), functions, and application programming interfaces (APIs)</p>
-            <p>Facilitated the preparation of visual instructional materials</p>
-            <p>Established and configuring the JS environment, including Visual Studio and Linux server setup</p>
-            <p>Assisted instructor in teaching introductory-through-intermediate coding principles and the fundamentals of JavaScript to students</p>
-            <p>Assessed and approve pre-work submissions from applicants and answer applicants' questions when applicable</p>
-            <p>Worked closely with lead teachers to identify student issues and developing appropriate strategies for solving them effectively</p>
-            <p>Tracked student grades and take practical steps to ensure academic progress meets the recommended standard</p>
-            <p>Provided insights into life in the industry in JavaScript</p>
-          </div> 
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Service Section -->
+							<div class="timeline-panel" style=" margin: auto; width: 50%;border: 2px solid rgb(131, 130, 130); padding: 10px; border-radius: 8px;">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bachelors Degree</h3>
+									<span class="company">University of Winnipeg - Sep 2017 - Dec 2022</span>
+								</div>
+								<div class="timeline-body">
+									<p>Bachelor of Science</p>
+                  <p>Computer Science</p>
+                  <p>Winnipeg, MB</p>    
+								</div>
+							</div>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 style="background: #FF9000; width: 100%; color: white; border-radius: 15px;">Skills</h2>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">React.js</span><span class="value-right">80%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Javascript</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Java</span><span class="value-right">70%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">Node</span><span class="value-right">75%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="75" aria-valuemin="0" aria-valuemax="75" style="width:100%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">MongoDB</span><span class="value-right">70%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-striped active" role="progressbar"
+						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Python</span><span class="value-right">70%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">jQuery</span><span class="value-right">60%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent Projects</h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item" onclick="linkCloud(); return false;">
-          <div class="project-info-cloudy">
-            <h1>Cloudy</h1>
-            <p>File upload and sharing web service using MVC architecture, JavaScript, MongoDB, Express.js, Nunjucks, and CSS.
-              File sharing server with Express and user validation implemented using Mongoose model schema.
-              Customized cache system to optimize efficiency and facilitate re-accessing of data.</p>
-          </div>
-          <div class="project-img" id="img-border-top"> 
-            <img src="./pics/browse.png" alt="img" >
-            <img src="./pics/upload.png" alt="img">
-          </div>
-        </div>
-        <div class="project-item" onclick="linkTrans(); return false;">
-          <div class="project-info">
-            <h1>Online Transaction System Design</h1>
-            <p>Design a system architecture for an online transaction system making stakeholders, activity diagrams, description of workflows, use case diagrams, code class association, specialization, relationship, and precondition</p>
-          </div>
-          <div class="project-img">
-            <img src="./pics/pro1.png" alt="img" style="height: 100%;object-fit: fill;">
-          </div>
-        </div>
-        <div class="project-item" onclick="linkPoker(); return false">
-          <div class="project-info">
-            <h1>Online Poker</h1><h4>(In Progress)</h4>
-            <p>Five cards poker game system using Java, Websocket, CSS
-              Poker system using chain design pattern and WebSocket in order to interact between users in real-time</p>
-          </div>
-          <div class="project-img">
-            <img src="./pics/poker.png" alt="" style="height: 100%;object-fit: fill;">
-          </div>
-        </div>
-        <div class="project-item" onclick="linkMall(); return false">
-          <div class="project-info-shop">
-            <h1>e-Commerce Mall</h1>
-            <h4>(In progress)</h4>
-            <p>Create online shopping mall CRUD system using vanilla HTML CSS Javascript Firebase real-time database and authentication system 
-            </p>
-          </div>
-          <div class="project-img" id="img-border-bottom">
-            <img src="./pics/mall.png" alt="img" style="height: 100%;object-fit: fill;">
-          </div>
-        </div>
-  <!-- End Projects Section -->
+	<div id="fh5co-work" class="fh5co-bg-dark" style="background-color: antiquewhite;">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Portfolios</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="httpss://github.com/luthentic/Cloudy" class="work" style="background-image: url(images/cloudy-logo.png);">
+						<div class="desc">
+							<h3>Cloudy</h3>
+							<span>File Uploader</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="httpss://github.com/luthentic/Mocomo" class="work" style="background-image: url(images/mocomo-logo.png);">
+						<div class="desc">
+							<h3>Mocomo</h3>
+							<span>Note Sharing Web</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="httpss://github.com/luthentic/MONGGLE" class="work" style="background-image: url(images/monggle-logo.png);">
+						<div class="desc">
+							<h3>Monggle</h3>
+							<span>Social Media</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="httpss://github.com/luthentic/Roceter" class="work" style="background-image: url(images/roceter-logo.png);">
+						<div class="desc">
+							<h3>Roceter</h3>
+							<span>Used Item Trading Web</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-        <div class="about-img">
-          <img src="pics/Mee.jpg" alt="img">
-        </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <h2>Software Developer</h2>
-        <p>Software Developer I with background with 2 years of hands-on experience in network engineering and web development 
-          Courageous enough to face formidable bugs, adaptable to new technologies, cross-functional teams
-          <br> Skilled at utilizing a wide variety of programming tools and programs.</p>
-        
-        <a href="https://drive.google.com/file/d/1h73_q1pCI_BAMycBMqZiDN_TD5VjxXoN/view?usp=sharing" class="cta">Download Resume</a> 
-        <!-- link -->
-      </div>
-    </div>
-  </section>
-  <!-- End About Section -->
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div>
-      <h1 class="section-title">Contact <span>info</span></h1>
-    </div>
-    <div class="contact-container" id="col">
-          <div class="contact-info" >
-            <img src="pics/phone-call.png" alt="">
-            <p>+1 204-869-4349</p>
-          </div>
-          <div class="contact-info">
-            <img src="pics/email.png" alt="">
-            <p>dltpdnd1234@gmail.com</p> 
-          </div>
-          <div class="contact-info">
-            <img src="pics/linkedin.png" alt="">
-            <p><a href="https://www.linkedin.com/in/sewoong-aiden-lee-b3029821b/">https://www.linkedin.com/in/sewoong-aiden-lee-b3029821b/</a></p>
-          </div>
-          <div class="contact-info">
-            <img src="pics/address.png" alt="">
-            <p>Canada, Winnipeg</p>
-          </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
-  <script src="./aiden.js"></script>
-</body>
+	<div id="fh5co-consult" style="transform: scale(0.7);">
+		<div class="video fh5co-video" style="background-image: url(images/wind.jpg);">
+			<div class="overlay"></div>
+		</div>
+		<div class="choose animate-box">
+			<h2>Contact</h2>
+			<form action="mailto:swlee5523@gmail.com">
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+					</div>
+				</div>
 
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="email" class="form-control" placeholder="Your email address">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send Message" class="btn btn-primary">
+				</div>
+
+			</form>	
+		</div>
+	</div>
+
+	<div id="map" class="fh5co-map"></div>
+	</div>
+	
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+          	<li><span class="second-block">Sewoong Lee</span></li>
+						<li><span class="second-block">+1 204 869 4349</span></li>
+						<li><span class="second-block">swlee5523@gmail.com</span></li>
+						<li><span class="second-block">26 Summerfield way, Winnipeg, MB</span></li>
+					<p style="font-size: 1px;">&copy; All Rights Reserved. <br>Designed by <a href="httpss://freehtml5.co" target="_blank">FreeHTML5.co</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+	<script src="httpss://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
