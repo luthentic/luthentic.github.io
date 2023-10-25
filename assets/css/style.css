@@ -378,8 +378,8 @@ body {
 }
 
 .portfolio-item {
-  height: 280px;
-  margin-bottom: 30px;
+  height: 200px;
+  margin-bottom: 40px;
   position: relative;
 }
 
@@ -634,8 +634,8 @@ a.icon-up-bg:hover {
 
 .section-interests .interest img {
   max-width: 100%;
-  height: 460px; /* Adjust this value to your preference */
-  object-fit: cover; /* This ensures the image covers the entire container */
+  height: 300px; /* Adjust this value to your preference */
+  /* This ensures the image covers the entire container */
 }
 
 /* Style for contact section */
